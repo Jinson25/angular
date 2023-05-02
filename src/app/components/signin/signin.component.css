@@ -1,0 +1,63 @@
+.contenedor-form{
+  margin: 5px auto;
+  padding: 10px;
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 4px #0b0d8885;
+}
+.a {
+  padding: 50px;
+}
+
+@media (max-width: 990px) {
+  .contenedor-form {
+    flex-direction: column; /* agregado */
+    align-items: center; /* agregado */
+  }
+  .contenedor-form .left {
+    display: none;
+  }
+}
+.contenedor-form .left{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-trabajos_1200-196.jpg?w=740&t=st=1677015924~exp=1677016524~hmac=791e7b89c09418428d85ab0eee77def3441d5f7dd1e30afaf5e23a1f917b0b44");
+  overflow: hidden;
+}
+.contenedor-form .left .overlay{
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.contenedor-form .right{
+  padding: 40px;
+  margin-left: 30px;
+}
+.logout{
+  color: #282bc6a6;
+}
+button{
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #282bc6a6;
+  background-image: linear-gradient(135deg, #70aaf5 10%, #284dc6 100%);
+}
+input{
+  padding: 10px 12px;
+  margin-bottom: 15px;
+}
+.account{
+  text-align: center;
+  margin-top: 9px;
+}

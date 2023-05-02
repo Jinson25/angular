@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Signika', sans-serif;
+}
+.swal2-confirm.mi-boton-confirmar:focus:not(:active) {
+  transform: none !important;
+}
+.swal2-styled:focus:not(:active) {
+  transform: none !important;
+}

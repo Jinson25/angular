@@ -1,0 +1,89 @@
+#bars{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 360px;
+    margin: 8px 0;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.1);
+}
+#bars div{
+    width: 0%;
+    height: inherit;
+    transition: 0.4s;
+}
+#bars.weak div{
+    background: #bc2b38;
+    width: 33.33%;
+}
+#bars.medium div{
+    background: #d36f30;
+    width: 66.66%;
+}
+#bars.strong div{
+    background: #1eb965;
+    width: 100%;
+}
+.contenedor-form{
+  margin: 5px auto;
+  padding: 10px;
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 4px #0b0d8885;
+}
+@media (max-width: 990px){
+  .left{
+    display: none;
+  }
+  .right{
+    text-align: center;
+    width: 100vw;
+    padding-left: -15px;
+  }
+}
+.contenedor-form .left{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://www.emprenderalia.com/wp-content/uploads/Crear-una-tienda-online-en-10-pasos-3-meses-y-sin-inversion.jpg");
+  overflow: hidden;
+}
+.contenedor-form .left .overlay{
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.contenedor-form .right{
+  padding: 40px;
+  margin-left: 30px;
+}
+.logout{
+  color: #282bc6a6;
+}
+button{
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #282bc6a6;
+  background-image: linear-gradient(135deg, #70aaf5 10%, #284dc6 100%);
+}
+.account{
+  text-align: center;
+  margin-top: 9px;
+}
+input{
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+.a {
+  padding: 50px;
+}
